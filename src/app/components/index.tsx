@@ -1,4 +1,4 @@
-import Recipe from './components/Recipe';
+import Recipe from './Recipe';
 
 export const App = () => {
     return (
