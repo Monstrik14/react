@@ -20,6 +20,11 @@ module.exports = {
                         },
                 },
                 {
+                  test: /\.svg$/i,
+                  issuer: /\.[jt]sx?$/,
+                  use: ['@svgr/webpack', 'url-loader'],
+                }, 
+                {
                     test: /\.(woff(2)?|eot|ttf|otf)$/,
                     type: 'asset/resource',
                         generator: {

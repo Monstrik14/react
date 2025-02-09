@@ -15,3 +15,5 @@ console.log(style); //использование объекта style важно
 
 // index.ts
 import './assets/images/dog.jpg'
+
+import { ReactComponent as ReactLogo } from './assets/images/react.svg';
