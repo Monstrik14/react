@@ -1,4 +1,3 @@
-// eslint.config.js
 
 module.exports = {
   files: ["./src/**/*.{js,jsx,ts,tsx,json}"],
